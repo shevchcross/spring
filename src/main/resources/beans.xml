@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean id = "kitchen" class = "spring.Kitchen" >
+        <property name = "myMessage" value = "green"/>
+    </bean>
+
+     <bean id = "kitchen1" class = "spring.Kitchen" lazy-init="true">
+        <property name = "myMessage" value = "yellow"/>
+    </bean>
+
+    <bean id = "kitchen2" class = "spring.Kitchen" init-method="Unit" scope="singleton">
+        <property name = "myMessage" value = "gray"/>
+    </bean>
+
+    <bean id = "kitchen3" class = "spring.Kitchen">
+        <property name = "myMessage" value = "i don`t now"/>
+        <constructor-arg index="0" value="WWWWW"></constructor-arg>
+        <constructor-arg index="1" value="23456"></constructor-arg>
+        <constructor-arg index="2" value="false"></constructor-arg>
+    </bean>
+
+    <bean id = "kitchen4" class = "spring.Kitchen">
+        <property name = "myMessage" value = "i am List"/>
+        <property name = "plates">
+            <list>
+                <value>small</value>
+                <value>big</value>
+                <value>mothers</value>
+                <value>mine</value>
+            </list>
+        </property>
+            </bean>
+
+    <bean id = "kitchen5" class = "spring.Kitchen">
+        <property name = "myMessage" value = "i am set"/>
+        <property name = "cutlery">
+            <set>
+                <value>foog</value>
+                <value>spoon</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id = "kitchen6" class = "spring.Kitchen">
+        <property name = "myMessage" value = "i am map"/>
+        <property name = "frig">
+            <map>
+                <entry key = "monday" value = "chiken"/>
+                <entry key = "TUESDAY" value = "beaf"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
+
+
