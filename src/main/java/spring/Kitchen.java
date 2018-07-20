@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by Aleksey on 17.07.2018.
+ * Created by Olya on 17.07.2018.
  */
 public class Kitchen{
     private String table;
