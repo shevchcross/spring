@@ -1,6 +1,7 @@
 package spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 /**
  * Created by Olya on 19.07.2018.
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Reader {
     @Autowired
+    @Qualifier("libraryBean1")
     private Library book;
     private String name;
     private int age;
