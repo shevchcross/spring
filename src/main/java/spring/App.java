@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by Olya on 16.07.2018.
+ * Created by Aleksey on 16.07.2018.
  */
 public class App {
     public static void main(String[] args) throws InterruptedException {
