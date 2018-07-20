@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 /**
- * Created by Olya on 19.07.2018.
+ * Created by Aleksey on 19.07.2018.
  */
 
 public class Reader {
