@@ -1,7 +1,7 @@
 package spring;
 
 /**
- * Created by Aleksey on 19.07.2018.
+ * Created by Olya on 19.07.2018.
  */
 public class Library {
     private int year;

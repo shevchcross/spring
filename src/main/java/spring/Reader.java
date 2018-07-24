@@ -3,7 +3,7 @@ package spring;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * Created by Aleksey on 19.07.2018.
+ * Created by Olya on 19.07.2018.
  */
 
 public class Reader {
