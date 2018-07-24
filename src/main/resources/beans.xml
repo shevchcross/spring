@@ -7,7 +7,7 @@
 
 
     <bean id = "kitchen" class = "spring.Kitchen" >
-        <property name = "myMessage" value = "green"/>
+        <property name = "myMessage"  value = "green"/>
     </bean>
 
      <bean id = "kitchen1" class = "spring.Kitchen" lazy-init="true">
